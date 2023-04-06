@@ -1,7 +1,21 @@
+@media(min-width: 2059px){
+    
+    header nav{
+        display: none;
+    }
+
+    footer{
+        display: none;
+    }
+
+}
+
 @media(max-width: 720px){
+    
     main{
         display: table-cell;
     }
+
 }
 
 @media(max-width: 511px){
@@ -25,10 +39,13 @@
     .caixaP h2{
         font-size: 25px;
     }
+
 }
 
 @media(max-width: 376px){
+ 
     footer{
         display: none;
     }
+    
 }
